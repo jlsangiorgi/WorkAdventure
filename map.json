@@ -426,8 +426,8 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"Coffee",
-                 "type":"file",
+                 "name":"playAudio",
+                 "type":"string",
                  "value":"sounds\/coffee.mp3"
                 }],
          "type":"tilelayer",
@@ -498,8 +498,8 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"Bathroom music",
-                 "type":"file",
+                 "name":"playAudio",
+                 "type":"string",
                  "value":"sounds\/Toiletflush.mp3"
                 }],
          "type":"tilelayer",
@@ -585,7 +585,7 @@
                  "value":"Press SPACE \/ touch to enter the virtual meeting"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":50,
          "x":0,
          "y":0
@@ -651,7 +651,7 @@
          "name":"clockZone",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":50,
          "x":0,
          "y":0
@@ -717,7 +717,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":50,
          "x":0,
          "y":0
@@ -783,7 +783,7 @@
          "name":"walls",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":50,
          "x":0,
          "y":0
